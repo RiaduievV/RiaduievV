@@ -1,7 +1,7 @@
 ![Header](https://github.com/RiaduievV/Vlad-Riaduiev/blob/main/assets/VR.png)
 
 ### About me
-[ ]
+I am a QA Engineer. My comprehensive training at Hillel School laid the groundwork for my journey in manual testing. This encompassed mastering theoretical aspects, refining my ability to craft effective test cases and detailed bug reports, and becoming adept at working with tools such as Jira. My proficiency extends further to encompass a solid grasp of SQL, HTML, CSS, and Postman which proves invaluable in navigating data structures and evaluating the front-end and back-end intricacies.
 
 ### Test Documentation
 ![Jira](https://img.shields.io/badge/_Jira-000?style=for-the-badge&logo=Jira&logoColor=209CF0)
