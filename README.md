@@ -11,7 +11,7 @@
 ![DevTools](https://img.shields.io/badge/DevTools-000?style=for-the-badge&logo=googlechrome)    ![SoapUI](https://img.shields.io/badge/SoapUI-FCDC00?style=for-the-badge&logo=SoapUI)     ![Postman](https://img.shields.io/badge/Postman-000?style=for-the-badge&logo=postman)
 
 ### Mobile Testing
-[ ]
+
 
 ### Database
 ![Mysql](https://img.shields.io/badge/Mysql-ECEDEF?style=for-the-badge&logo=mysql)
@@ -24,5 +24,5 @@
 
 
 ### Follow me
-[![LinkedIn](https://img.shields.io/badge/Linkedin-ECEDEF?style=for-the-badge&logo=linkedin&logoColor=136CC4)](www.linkedin.com/in/vlad-riaduiev)
+[![LinkedIn](https://img.shields.io/badge/Linkedin-ECEDEF?style=for-the-badge&logo=linkedin&logoColor=136CC4)](https://www.linkedin.com/in/vlad-riaduiev/)
 [![Telegram](https://img.shields.io/badge/Telegram-000?style=for-the-badge&logo=telegram&logoColor)](https://t.me/ddqqww1)
