@@ -22,11 +22,11 @@
 
 ### Front-end
 ![HTML](https://img.shields.io/badge/HTML-DD4B24?style=for-the-badge&logo=html)
-![CSS](https://img.shields.io/badge/CSS-306BF2?style=for-the-badge&logo=css)  
+![CSS](https://img.shields.io/badge/CSS-306BF2?style=for-the-badge&logo=css)
 ![JS](https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript)
 
 ### Work with code
-![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git)   
+![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git)
 ![Bash](https://img.shields.io/badge/Bash-F7F7F7?style=for-the-badge&logo=bash)
 ![Vscode](https://img.shields.io/badge/Vscode-000?style=for-the-badge&logo=visualstudio&logoColor=2FB4F3)
 
