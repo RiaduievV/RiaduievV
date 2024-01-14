@@ -23,6 +23,6 @@
 ![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git)     ![Bash](https://img.shields.io/badge/Bash-F7F7F7?style=for-the-badge&logo=bash)     ![Vscode](https://img.shields.io/badge/Vscode-000?style=for-the-badge&logo=visualstudio&logoColor=2FB4F3)
 
 
-### Follow me
+### Network
 [![LinkedIn](https://img.shields.io/badge/Linkedin-ECEDEF?style=for-the-badge&logo=linkedin&logoColor=136CC4)](https://www.linkedin.com/in/vlad-riaduiev/)
 [![Telegram](https://img.shields.io/badge/Telegram-000?style=for-the-badge&logo=telegram&logoColor)](https://t.me/ddqqww1)
