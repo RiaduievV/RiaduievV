@@ -11,11 +11,15 @@ I am a QA Engineer. My comprehensive training at Hillel School laid the groundwo
 
 ### Web Application Testing
 ![DevTools](https://img.shields.io/badge/DevTools-000?style=for-the-badge&logo=googlechrome)
-![SoapUI](https://img.shields.io/badge/SoapUI-FCDC00?style=for-the-badge&logo=SoapUI)
+![SeleniumIDE](https://img.shields.io/badge/Selenium_IDE-000?style=for-the-badge&logo=selenium)
+
+### API
 ![Postman](https://img.shields.io/badge/Postman-000?style=for-the-badge&logo=postman)
+![SoapUI](https://img.shields.io/badge/SoapUI-FCDC00?style=for-the-badge&logo=SoapUI)
+![Swagger](https://img.shields.io/badge/swagger-000?style=for-the-badge&logo=swagger)
 
 ### Mobile Testing
-
+[]
 
 ### Database
 ![Mysql](https://img.shields.io/badge/Mysql-ECEDEF?style=for-the-badge&logo=mysql)
