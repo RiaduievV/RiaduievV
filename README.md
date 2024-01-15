@@ -12,6 +12,8 @@ I am a QA Engineer. My comprehensive training at Hillel School laid the groundwo
 ### Web Application Testing
 ![DevTools](https://img.shields.io/badge/DevTools-000?style=for-the-badge&logo=googlechrome)
 ![SeleniumIDE](https://img.shields.io/badge/Selenium_IDE-000?style=for-the-badge&logo=selenium)
+![HTML](https://img.shields.io/badge/HTML-DD4B24?style=for-the-badge&logo=html)
+![CSS](https://img.shields.io/badge/CSS-306BF2?style=for-the-badge&logo=css)
 
 ### API
 ![Postman](https://img.shields.io/badge/Postman-000?style=for-the-badge&logo=postman)
@@ -24,9 +26,7 @@ I am a QA Engineer. My comprehensive training at Hillel School laid the groundwo
 ### Database
 ![Mysql](https://img.shields.io/badge/Mysql-ECEDEF?style=for-the-badge&logo=mysql)
 
-### Front-end
-![HTML](https://img.shields.io/badge/HTML-DD4B24?style=for-the-badge&logo=html)
-![CSS](https://img.shields.io/badge/CSS-306BF2?style=for-the-badge&logo=css)
+### Languages
 ![JS](https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript)
 
 ### Work with code
