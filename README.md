@@ -5,7 +5,7 @@ I am a QA Engineer. My comprehensive training at Hillel School laid the groundwo
 
 ### Test Documentation
 ![Jira](https://img.shields.io/badge/_Jira-000?style=for-the-badge&logo=Jira&logoColor=209CF0)
-![Testtrail](https://img.shields.io/badge/Testtrail-000?style=for-the-badge&logo=testrail)
+![Testrail](https://img.shields.io/badge/Testrail-000?style=for-the-badge&logo=testrail)
 ![Figma](https://img.shields.io/badge/Figma-000?style=for-the-badge&logo=figma)
 
 
