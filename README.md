@@ -24,7 +24,7 @@ I am a QA Engineer. My comprehensive training at Hillel School laid the groundwo
 []
 
 ### Database
-![Mysql](https://img.shields.io/badge/Mysql-ECEDEF?style=for-the-badge&logo=mysql)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-ECEDEF?style=for-the-badge&logo=PostgreSQL)
 
 ### Languages
 ![JS](https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript)
