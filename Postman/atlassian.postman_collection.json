@@ -1,0 +1,444 @@
+{
+	"info": {
+		"_postman_id": "2823bc86-3ac7-43c4-90f7-fb05de7cf60e",
+		"name": "atlassian",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31814216"
+	},
+	"item": [
+		{
+			"name": "Project",
+			"item": [
+				{
+					"name": "create project",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authority",
+								"value": "riaduiev.atlassian.net"
+							},
+							{
+								"key": "accept",
+								"value": "application/json,text/javascript,*/*"
+							},
+							{
+								"key": "accept-language",
+								"value": "en,ru-RU;q=0.9,ru;q=0.8"
+							},
+							{
+								"key": "content-type",
+								"value": "application/json"
+							},
+							{
+								"key": "cookie",
+								"value": "atlassian.account.xsrf.token=991358a6-007a-488b-b79b-1e7c2af1d827; atlassian.xsrf.token=583b140122c4af2666181754f92f34f71d4c7a24_lin; ajs_anonymous_id=%22d0b40db3-a48d-4064-8d37-b14276a4650b%22; tenant.session.token=eyJraWQiOiJzZXNzaW9uLXNlcnZpY2UvcHJvZC0xNTkyODU4Mzk0IiwiYWxnIjoiUlMyNTYifQ.eyJhc3NvY2lhdGlvbnMiOltdLCJzdWIiOiI3MTIwMjA6MTczMTg4ODUtODY2Yy00MGFiLWIwNTItNTFiNzk0ZGY3N2VkIiwiZW1haWxEb21haW4iOiJnbWFpbC5jb20iLCJpbXBlcnNvbmF0aW9uIjpbXSwiY3JlYXRlZCI6MTcwNDM5MzMyMSwicmVmcmVzaFRpbWVvdXQiOjE3MDQzOTU5MDYsInZlcmlmaWVkIjp0cnVlLCJpc3MiOiJzZXNzaW9uLXNlcnZpY2UiLCJzZXNzaW9uSWQiOiJlYmZhNTMwYy05YmNiLTQyNTctOGFkOS00MWZmZTI1MTQyNzEiLCJzdGVwVXBzIjpbXSwiYXVkIjoiYXRsYXNzaWFuIiwibmJmIjoxNzA0Mzk1MzA2LCJleHAiOjE3MDY5ODczMDYsImlhdCI6MTcwNDM5NTMwNiwiZW1haWwiOiJpbmZvdmxhZHJAZ21haWwuY29tIiwianRpIjoiZWJmYTUzMGMtOWJjYi00MjU3LThhZDktNDFmZmUyNTE0MjcxIn0.oXOOe__l9nM4DQ0IxYVaeQq4aEzv0T3ufx7Vng80TltkIYPZiHgQRbJa05ZDAPXm58mExeClaoaPV2x5i5CEuGreKMo7o98VMRPtiyAcqQwMAKx00Oztn_-R79l005-OEzWKYAAyTaFDOdju0I1lLUXN1b3IF1WWNO2fZ6uOPaiQnbUqFR-Nr05z3GsztVvxe8boajfRWzxRuUE5jy706LKvE94yPmS4ixryGYJu3OAD6RHSVHUr5qHbep4ucXb8X1HcT9xUVjVkc3van75IRghE1OV3SFVTS2QRWTBRxPZeYQ9q1sTUdzXctB6Cw-Yegp87svinBkzW9-NGkB9BZg; JSESSIONID=A7TR0MfXe-88fHqWRQQgX3eOXpq9bJBZeWTnT0j1"
+							},
+							{
+								"key": "origin",
+								"value": "https://riaduiev.atlassian.net"
+							},
+							{
+								"key": "referer",
+								"value": "https://riaduiev.atlassian.net/jira/projects?page=1&sortKey=name&sortOrder=ASC"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"macOS\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    //\"key\": \"TESTQ\",\n    \"templateKey\": \"com.pyxis.greenhopper.jira:gh-simplified-scrum-classic\",\n    \"name\": \"TEST97999\"\n}"
+						},
+						"url": {
+							"raw": "{{link}}/rest/simplified/latest/project",
+							"host": [
+								"{{link}}"
+							],
+							"path": [
+								"rest",
+								"simplified",
+								"latest",
+								"project"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete project",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "authority",
+								"value": "riaduiev.atlassian.net"
+							},
+							{
+								"key": "accept",
+								"value": "application/json,text/javascript,*/*"
+							},
+							{
+								"key": "accept-language",
+								"value": "en,ru-RU;q=0.9,ru;q=0.8"
+							},
+							{
+								"key": "content-type",
+								"value": "application/json"
+							},
+							{
+								"key": "cookie",
+								"value": "atlassian.account.xsrf.token=991358a6-007a-488b-b79b-1e7c2af1d827; atlassian.xsrf.token=583b140122c4af2666181754f92f34f71d4c7a24_lin; ajs_anonymous_id=%22d0b40db3-a48d-4064-8d37-b14276a4650b%22; tenant.session.token=eyJraWQiOiJzZXNzaW9uLXNlcnZpY2UvcHJvZC0xNTkyODU4Mzk0IiwiYWxnIjoiUlMyNTYifQ.eyJhc3NvY2lhdGlvbnMiOltdLCJzdWIiOiI3MTIwMjA6MTczMTg4ODUtODY2Yy00MGFiLWIwNTItNTFiNzk0ZGY3N2VkIiwiZW1haWxEb21haW4iOiJnbWFpbC5jb20iLCJpbXBlcnNvbmF0aW9uIjpbXSwiY3JlYXRlZCI6MTcwNDM5MzMyMSwicmVmcmVzaFRpbWVvdXQiOjE3MDQ0MDY4MTYsInZlcmlmaWVkIjp0cnVlLCJpc3MiOiJzZXNzaW9uLXNlcnZpY2UiLCJzZXNzaW9uSWQiOiJlYmZhNTMwYy05YmNiLTQyNTctOGFkOS00MWZmZTI1MTQyNzEiLCJzdGVwVXBzIjpbXSwiYXVkIjoiYXRsYXNzaWFuIiwibmJmIjoxNzA0NDA2MjE2LCJleHAiOjE3MDY5OTgyMTYsImlhdCI6MTcwNDQwNjIxNiwiZW1haWwiOiJpbmZvdmxhZHJAZ21haWwuY29tIiwianRpIjoiZWJmYTUzMGMtOWJjYi00MjU3LThhZDktNDFmZmUyNTE0MjcxIn0.ZfWa-GdjSCEOixIxNDpmvK9onSpSIbKO7l4Pc5HUY1dsvNX7BaQ8mPoNRxpOWY4nz2WhmoPKeH6YZE7yxM0xKUxyhgxUZGzf4pJLY4FgqvEHlgOaMdKoiwA42OVwuBm95im3PG0nIJHimZ8tZ2ghb7gIg_NOGfJsN2mqD99LTaoN5owgXcylwBuLbgx-CvDE9ivwEZ62HshWmJ-7HJFaIf4Wh6pU6-iDXKH-juAOHrow5AKXXVFOvsEpbLyPnZcsQiT77S2VSLZmeDqA1QUrqUVHOxczNd76U23dHhWlpqfL73j8EMArNFw5R_lDozdifDWCcEoIp3rwAm4qfaS6LQ; JSESSIONID=ilAgcRjEvZrFgSrVcLzs_gAv-yqc1TV_1bH23ap5"
+							},
+							{
+								"key": "origin",
+								"value": "https://riaduiev.atlassian.net"
+							},
+							{
+								"key": "referer",
+								"value": "https://riaduiev.atlassian.net/jira/projects"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"macOS\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							}
+						],
+						"url": {
+							"raw": "{{link}}/rest/api/2/project/10009?enableUndo=true",
+							"host": [
+								"{{link}}"
+							],
+							"path": [
+								"rest",
+								"api",
+								"2",
+								"project",
+								"10009"
+							],
+							"query": [
+								{
+									"key": "enableUndo",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "create comment",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authority",
+								"value": "riaduiev.atlassian.net"
+							},
+							{
+								"key": "accept",
+								"value": "application/json,text/javascript,*/*"
+							},
+							{
+								"key": "accept-language",
+								"value": "en,ru-RU;q=0.9,ru;q=0.8"
+							},
+							{
+								"key": "content-type",
+								"value": "application/json"
+							},
+							{
+								"key": "cookie",
+								"value": "atlassian.account.xsrf.token=991358a6-007a-488b-b79b-1e7c2af1d827; atlassian.xsrf.token=583b140122c4af2666181754f92f34f71d4c7a24_lin; ajs_anonymous_id=%22d0b40db3-a48d-4064-8d37-b14276a4650b%22; tenant.session.token=eyJraWQiOiJzZXNzaW9uLXNlcnZpY2UvcHJvZC0xNTkyODU4Mzk0IiwiYWxnIjoiUlMyNTYifQ.eyJhc3NvY2lhdGlvbnMiOltdLCJzdWIiOiI3MTIwMjA6MTczMTg4ODUtODY2Yy00MGFiLWIwNTItNTFiNzk0ZGY3N2VkIiwiZW1haWxEb21haW4iOiJnbWFpbC5jb20iLCJpbXBlcnNvbmF0aW9uIjpbXSwiY3JlYXRlZCI6MTcwNDM5MzMyMSwicmVmcmVzaFRpbWVvdXQiOjE3MDQ0MDc3NjMsInZlcmlmaWVkIjp0cnVlLCJpc3MiOiJzZXNzaW9uLXNlcnZpY2UiLCJzZXNzaW9uSWQiOiJlYmZhNTMwYy05YmNiLTQyNTctOGFkOS00MWZmZTI1MTQyNzEiLCJzdGVwVXBzIjpbXSwiYXVkIjoiYXRsYXNzaWFuIiwibmJmIjoxNzA0NDA3MTYzLCJleHAiOjE3MDY5OTkxNjMsImlhdCI6MTcwNDQwNzE2MywiZW1haWwiOiJpbmZvdmxhZHJAZ21haWwuY29tIiwianRpIjoiZWJmYTUzMGMtOWJjYi00MjU3LThhZDktNDFmZmUyNTE0MjcxIn0.JmoGrZGZ0ntksECFS74lyOj9L1v9JvEo5FVzZSB4VUy8RMVtbSXpawRrMoNiQv3hdHZShIvgr6qdrf-j87HeEsRx48mS-sbyjGIMSWjKpN15_LQWgqJc1yrDYzzi4yorb-Vgoyj9raToDXUZ17KOQ8zoSMdcI9aLXlh21JsROG46nvdZpGHoOEuo-Cb5xtFakJ66DBDETGMtRBJ7xWgWXwD9zewmwRhztOj00_IlHaDl1n19CBlf59NMkyLdCvEf-BtRr2SVSobC49IeRhVVOpBLm5EtKWZsOCKSYPwgiYSYYko0zbXKiq0tvKpkgaE0fn69873dZinw9WqaG-VLeA; JSESSIONID=chb2gL-qMGsmeujUuu_RO9ZQqvbloxXFpXutkjaI"
+							},
+							{
+								"key": "origin",
+								"value": "https://riaduiev.atlassian.net"
+							},
+							{
+								"key": "referer",
+								"value": "https://riaduiev.atlassian.net/jira/software/c/projects/TES/boards/5?selectedIssue=TES-1"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"macOS\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "x-atlassian-capability",
+								"value": "COMPANY_MANAGED_BOARD"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"body\": {\n        \"version\": 1,\n        \"type\": \"doc\",\n        \"content\": [\n            {\n                \"type\": \"paragraph\",\n                \"content\": [\n                    {\n                        \"type\": \"text\",\n                        \"text\": \"tthththth\"\n                    }\n                ]\n            }\n        ]\n    },\n    \"visibility\": null\n}"
+						},
+						"url": {
+							"raw": "{{link}}/rest/api/3/issue/TS-1/comment",
+							"host": [
+								"{{link}}"
+							],
+							"path": [
+								"rest",
+								"api",
+								"3",
+								"issue",
+								"TS-1",
+								"comment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "edit comment",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authority",
+								"value": "riaduiev.atlassian.net"
+							},
+							{
+								"key": "accept",
+								"value": "application/json,text/javascript,*/*"
+							},
+							{
+								"key": "accept-language",
+								"value": "en,ru-RU;q=0.9,ru;q=0.8"
+							},
+							{
+								"key": "content-type",
+								"value": "application/json"
+							},
+							{
+								"key": "cookie",
+								"value": "atlassian.account.xsrf.token=991358a6-007a-488b-b79b-1e7c2af1d827; atlassian.xsrf.token=583b140122c4af2666181754f92f34f71d4c7a24_lin; ajs_anonymous_id=%22d0b40db3-a48d-4064-8d37-b14276a4650b%22; tenant.session.token=eyJraWQiOiJzZXNzaW9uLXNlcnZpY2UvcHJvZC0xNTkyODU4Mzk0IiwiYWxnIjoiUlMyNTYifQ.eyJhc3NvY2lhdGlvbnMiOltdLCJzdWIiOiI3MTIwMjA6MTczMTg4ODUtODY2Yy00MGFiLWIwNTItNTFiNzk0ZGY3N2VkIiwiZW1haWxEb21haW4iOiJnbWFpbC5jb20iLCJpbXBlcnNvbmF0aW9uIjpbXSwiY3JlYXRlZCI6MTcwNDM5MzMyMSwicmVmcmVzaFRpbWVvdXQiOjE3MDQ4MDAxMTEsInZlcmlmaWVkIjp0cnVlLCJpc3MiOiJzZXNzaW9uLXNlcnZpY2UiLCJzZXNzaW9uSWQiOiJlYmZhNTMwYy05YmNiLTQyNTctOGFkOS00MWZmZTI1MTQyNzEiLCJzdGVwVXBzIjpbXSwiYXVkIjoiYXRsYXNzaWFuIiwibmJmIjoxNzA0Nzk5NTExLCJleHAiOjE3MDczOTE1MTEsImlhdCI6MTcwNDc5OTUxMSwiZW1haWwiOiJpbmZvdmxhZHJAZ21haWwuY29tIiwianRpIjoiZWJmYTUzMGMtOWJjYi00MjU3LThhZDktNDFmZmUyNTE0MjcxIn0.v5PA_IFlaMUXmrEZ59Xl6QPVF4PO5vEqMEZNQTUeSapGpx1dX3YrephgzLSS3jSDArHaT1Rg5qVJXcQWiSGYBrXBZs5GUrGjOE0c1XhVEIOumQEhxU6KcUOra-tCQAeFmawhflmjIIzvJWYe85tvzN3nBAAoCYLfu0jU8q6OZxWaCgHekXydZuh-XRcFsSC7kEQr49C9Eji6oXmYtfC4XeSKCm36e8IJOKvV4RuR7MYtdJuppRVksaSmEc49-MS4qv8p6cgl870tCLTRnaks2zEjaWVLjMt8PEPMPr94OAj_Fz8Kkh0ku0d6GBGtL27x3J_AHVVx-egAzHNQTk8bTA; JSESSIONID=buaOSPnQ3-XVSO82Uqao3wzWHafOiWCHLeTij_Fk"
+							},
+							{
+								"key": "origin",
+								"value": "https://riaduiev.atlassian.net"
+							},
+							{
+								"key": "referer",
+								"value": "https://riaduiev.atlassian.net/jira/software/c/projects/TS/boards/6/backlog?selectedIssue=TS-1"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"macOS\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "x-atlassian-capability",
+								"value": "COMPANY_MANAGED_BACKLOG"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"body\": {\n        \"version\": 1,\n        \"type\": \"doc\",\n        \"content\": [\n            {\n                \"type\": \"paragraph\",\n                \"content\": [\n                    {\n                        \"type\": \"text\",\n                        \"text\": \"new commhbhbherbggn\"\n                    }\n                ]\n            }\n        ]\n    },\n    \"visibility\": null\n}"
+						},
+						"url": {
+							"raw": "{{link}}/rest/api/3/issue/TS-1/comment/10008",
+							"host": [
+								"{{link}}"
+							],
+							"path": [
+								"rest",
+								"api",
+								"3",
+								"issue",
+								"TS-1",
+								"comment",
+								"10008"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete comment",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "authority",
+								"value": "riaduiev.atlassian.net"
+							},
+							{
+								"key": "accept",
+								"value": "application/json,text/javascript,*/*"
+							},
+							{
+								"key": "accept-language",
+								"value": "en,ru-RU;q=0.9,ru;q=0.8"
+							},
+							{
+								"key": "content-type",
+								"value": "application/json"
+							},
+							{
+								"key": "cookie",
+								"value": "atlassian.account.xsrf.token=991358a6-007a-488b-b79b-1e7c2af1d827; atlassian.xsrf.token=583b140122c4af2666181754f92f34f71d4c7a24_lin; ajs_anonymous_id=%22d0b40db3-a48d-4064-8d37-b14276a4650b%22; tenant.session.token=eyJraWQiOiJzZXNzaW9uLXNlcnZpY2UvcHJvZC0xNTkyODU4Mzk0IiwiYWxnIjoiUlMyNTYifQ.eyJhc3NvY2lhdGlvbnMiOltdLCJzdWIiOiI3MTIwMjA6MTczMTg4ODUtODY2Yy00MGFiLWIwNTItNTFiNzk0ZGY3N2VkIiwiZW1haWxEb21haW4iOiJnbWFpbC5jb20iLCJpbXBlcnNvbmF0aW9uIjpbXSwiY3JlYXRlZCI6MTcwNDM5MzMyMSwicmVmcmVzaFRpbWVvdXQiOjE3MDQ4MDEyNjcsInZlcmlmaWVkIjp0cnVlLCJpc3MiOiJzZXNzaW9uLXNlcnZpY2UiLCJzZXNzaW9uSWQiOiJlYmZhNTMwYy05YmNiLTQyNTctOGFkOS00MWZmZTI1MTQyNzEiLCJzdGVwVXBzIjpbXSwiYXVkIjoiYXRsYXNzaWFuIiwibmJmIjoxNzA0ODAwNjY3LCJleHAiOjE3MDczOTI2NjcsImlhdCI6MTcwNDgwMDY2NywiZW1haWwiOiJpbmZvdmxhZHJAZ21haWwuY29tIiwianRpIjoiZWJmYTUzMGMtOWJjYi00MjU3LThhZDktNDFmZmUyNTE0MjcxIn0.eFBZoVxmiPlsHYCV0q6wK_6ds74Hnr_1t6RZ5eiG8zcS3sejghcrG3Wt3T4pPaQ_d17CNzjYTKC4VzeIUYQSxXLEQT1j5tt1lwDjgYTmV7aB2OxKX_XFli0zIquJ1E4Zlzb6eAK-8-_4Rai9BfWzdHyoN14yZnd3qYPGYqRpKB-luhBDyMMKfb8bmlrbzN39t-Uwr57kdc-qC9KE28aS6uHzC68l_aT08H_lgU7s39RguH55dR5FlGTwvxvrp9IFig8_0mx7Kur_KlgeA7793IM8zrvpaSUR6wxGUnzk6YzA5VRbfJsuDABjA_sDqFI16XrtbHOnZ2S0oqnj5lqJWA; JSESSIONID=mMxbBlJxefzzXWkiFtC9szJB2dM-AO0QnWr68-q8"
+							},
+							{
+								"key": "origin",
+								"value": "https://riaduiev.atlassian.net"
+							},
+							{
+								"key": "referer",
+								"value": "https://riaduiev.atlassian.net/jira/software/c/projects/TS/boards/6/backlog?selectedIssue=TS-1"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"macOS\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "x-atlassian-capability",
+								"value": "COMPANY_MANAGED_BACKLOG"
+							}
+						],
+						"url": {
+							"raw": "{{link}}/rest/api/2/issue/TS-1/comment/10009",
+							"host": [
+								"{{link}}"
+							],
+							"path": [
+								"rest",
+								"api",
+								"2",
+								"issue",
+								"TS-1",
+								"comment",
+								"10009"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
